@@ -1,0 +1,34 @@
+{
+  "name": "practica6_serviciosweb",
+  "version": "1.0.0",
+  "description": "practica 6 de la materia desarrollo de sistemas distribuidos",
+  "main": "index.js",
+  "scripts": {
+    "dev": " nodemon src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "distribuided",
+    "systems",
+    "escom",
+    "chadwick"
+  ],
+  "author": "mgonzalez52",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "lowdb": "^7.0.1",
+    "morgan": "^1.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/lowdb": "^1.0.15",
+    "@types/morgan": "^1.9.9",
+    "nodemon": "^3.1.10"
+  }
+}
